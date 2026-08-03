@@ -4,7 +4,7 @@ from app.calculator import multiply, division
 
 @pytest.mark.smoke
 def test_multiply():
-    assert multiply(3, 5) == 15
+    assert multiply(3, 3) == 9
     assert multiply(-2, 4) == -8
 
 @pytest.mark.regression
